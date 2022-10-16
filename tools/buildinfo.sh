@@ -58,9 +58,9 @@ if [ -n "$BUILD_THUMBPRINT" ] ; then
 fi
 
 if [ -n "$DEVICE_MAINTAINERS" ] ; then
-  echo "ro.aicp.maintainer=$DEVICE_MAINTAINERS"
+  echo "ro.baikalos.maintainer=$DEVICE_MAINTAINERS"
 fi
 
-echo "ro.aicp.device=$AICP_DEVICE"
+echo "ro.baikalos.device=$BAIKALOS_DEVICE"
 
 echo "# end build properties"

@@ -143,8 +143,8 @@ else
   $(built_module): $(additional_certificates)
   $(built_module): PRIVATE_ADDITIONAL_CERTIFICATES := $(additional_certificates)
 
-  $(built_module): $(LOCAL_CERTIFICATE_AICP)
-  $(built_module): PRIVATE_CERTIFICATE_AICP := $(LOCAL_CERTIFICATE_AICP)
+  $(built_module): $(LOCAL_CERTIFICATE_BAIKALOS)
+  $(built_module): PRIVATE_CERTIFICATE_BAIKALOS := $(LOCAL_CERTIFICATE_BAIKALOS)
 
   $(built_module): PRIVATE_ROTATION_MIN_SDK_VERSION := $(LOCAL_ROTATION_MIN_SDK_VERSION)
 endif
