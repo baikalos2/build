@@ -2003,5 +2003,6 @@ source_vendorsetup
 addcompletions
 
 export ANDROID_BUILD_TOP=$(gettop)
+export CCACHE_DIR=$ANDROID_BUILD_TOP/out/.ccache/
 
 . $ANDROID_BUILD_TOP/vendor/aicp/build/envsetup.sh
